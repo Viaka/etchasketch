@@ -1,10 +1,10 @@
 #container {
   left: 50%;
-  top: 70%;
-  transform: translate(-50%, -1%);
+  top: 50%;
+  transform: translate(-50%, 30%);
   height: 500px;
   width: 500px;
-  background-color: #b36b00;
+  background-color: #ad0000;
   position: relative;
   font-size: 0;
   white-space: nowrap;
