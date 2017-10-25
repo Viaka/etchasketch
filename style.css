@@ -1,103 +1,19 @@
-body {
-	font-family: Arial;
-	font-size: 13px;
-	text-decoration: none;
+#container {
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -1%);
+  height: 500px;
+  width: 500px;
+  background-color: #b36b00;
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
 }
 
-div {
-	text-align: center;
-}
-
-.Lheader {
-	position: absolute;
-	left: 15px;
-	top: 20px;
-	text-decoration: none;
-	text-align: left;
-}
-
-.Rheader{
-	position: absolute;
-	right: 0px;
-	top: 20px;
-	text-decoration: none;
-	text-align: right;
-
-}
-
-.topleft{
-	text-decoration: none;
-	margin: 10px;
-	color: #000;
-	opacity: .75;
-}
-
-.topright{
-	text-decoration: none;
-	margin: 10px;
-	color: #000;
-	opacity: .75;
-}
-
-.logo{
-	position: relative;
-	top: 200px;
-	text-align: center;
-}
-
-.buttons{
-	position: relative;
-	top: 250px;
-	text-align: center;
-}
-.search-bar{
-	position: relative;
-	top: 220px;
-	text-align: center;
-}
-
-.text-box{
-	width: 480px;
-	height: 40px;
-}
-
-.Lfooter {
-	position: absolute;
-	left: 15px;
-	bottom: 20px;
-	text-decoration: none;
-	text-align: left;
-}
-
-.Rfooter{
-	position: absolute;
-	right: 0px;
-	bottom: 20px;
-	text-decoration: none;
-	text-align: right;
-}
-
-.bottomleft{
-	text-decoration: none;
-	margin: 10px;
-	color: #000;
-	opacity: .75;
-}
-
-.bottomright{
-	text-decoration: none;
-	margin: 10px;
-	color: #000;
-	opacity: .75;
-}
-
-.feet{
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 55px;
-	display: block;
-	background: rgba(99, 99, 99, 0.99);
-	bottom: 0px;
-	opacity: 0.25;
+.gridSquare {
+  margin: 1px;
+  padding: 0;
+  background-color: #fff;
+  display: inline-block;
+  float: left;
 }
