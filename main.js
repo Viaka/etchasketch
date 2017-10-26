@@ -7,6 +7,11 @@ $(document).ready(function() {
 		setSize(gridSize);
 	};
 
+	document.getElementById("clearGrid").onclick = function() {
+	var gridSize = $(this).closest('.page').find('#text-box').val();
+	setSize(gridSize);
+	};
+	
 	function setSize(gridSize) {
 		$('#container').empty();
 		for(let i = 0; i < gridSize**2; i++){
@@ -16,8 +21,9 @@ $(document).ready(function() {
 		$('.gridSquare').width(500/gridSize-2);
 	}
 	$('#container').on('mouseenter', '.gridSquare', function() {
-		//$(this).addClass('highlight');
-		$(this).animate({'opacity': '0'});
+		//More accurate to the project without the toggle, but it's fun with!
+		//$(this).fadeToggle();
+		$(this).animate({'opacity': '0'},);
 	});
 	
 });
