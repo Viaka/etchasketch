@@ -8,8 +8,8 @@ $(document).ready(function() {
 	};
 
 	document.getElementById("clearGrid").onclick = function() {
-	var gridSize = $(this).closest('.page').find('#text-box').val();
-	setSize(gridSize);
+		var gridSize = $(this).closest('.page').find('#text-box').val();
+		setSize(gridSize);
 	};
 	
 	function setSize(gridSize) {
@@ -25,5 +25,4 @@ $(document).ready(function() {
 		//$(this).fadeToggle();
 		$(this).animate({'opacity': '0'},);
 	});
-	
 });
